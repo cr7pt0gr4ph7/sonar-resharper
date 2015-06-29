@@ -3,17 +3,23 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Access to disposed closure]]></name>
     <description><![CDATA[Access to disposed closure]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="AccessToForEachVariableInClosure">
     <priority>MAJOR</priority>
     <name><![CDATA[Access to foreach variable in closure]]></name>
     <description><![CDATA[Access to foreach variable in closure]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="AccessToModifiedClosure">
     <priority>MAJOR</priority>
     <name><![CDATA[Access to modified closure]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Access+to+modified+closure">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="AccessToStaticMemberViaDerivedType">
     <priority>MAJOR</priority>
@@ -21,6 +27,7 @@
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Access+to+a+static+member+of+a+type+via+a+derived+type">See JetBrains
       documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="AnnotationConflictInHierarchy">
     <priority>MAJOR</priority>
@@ -42,11 +49,13 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown content placeholder]]></name>
     <description><![CDATA[Unknown content placeholder]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Asp.DeadCode">
     <priority>MAJOR</priority>
     <name><![CDATA[ASP.NET Dead Code]]></name>
     <description><![CDATA[ASP.NET Dead Code]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="Asp.Entity">
     <priority>MAJOR</priority>
@@ -62,57 +71,70 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown symbol]]></name>
     <description><![CDATA[Unknown symbol]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Asp.ResolveWarning">
     <priority>MAJOR</priority>
     <name><![CDATA[ASP.NET Resolve Warning]]></name>
     <description><![CDATA[ASP.NET Resolve Warning]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Asp.SkinNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown skin]]></name>
     <description><![CDATA[Unknown skin]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Asp.TagAttributeWithOptionalValue">
     <priority>MAJOR</priority>
     <name><![CDATA[Attribute with optional value problem]]></name>
     <description><![CDATA[Attribute with optional value problem]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="AspUnusedRegisterDirectiveHighlighting">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused register directive]]></name>
     <description><![CDATA[Unused register directive]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Asp.ThemeNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown theme]]></name>
     <description><![CDATA[Unknown theme]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Asp.Warning">
     <priority>MAJOR</priority>
     <name><![CDATA[ASP.NET Warning]]></name>
     <description><![CDATA[ASP.NET Warning]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="AspOdsMethodReferenceResolveError">
     <priority>MAJOR</priority>
     <name><![CDATA[Object data source method resolve problem]]></name>
     <description><![CDATA[Object data source method resolve problem]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="AssignedValueIsNeverUsed">
     <priority>MAJOR</priority>
     <name><![CDATA[Assigned value is never used]]></name>
     <description><![CDATA[Assigned value is never used]]></description>
+    <tag>bug</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="AssignNullToNotNullAttribute">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible 'null' assignment to entity marked with 'Value cannot be null' attribute]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Possible+'null'+assignment+to+an+entity+marked+with+'Value+cannot+be+null'+attribute">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="AssignToImplicitGlobalInFunctionScope">
     <priority>MAJOR</priority>
     <name><![CDATA[Assignment to an implicitly declared global variable]]></name>
     <description><![CDATA[Assignment to an implicitly declared global variable]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="Asxx.PathError">
     <priority>MAJOR</priority>
@@ -123,52 +145,69 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Base member has 'params' parameter, but overrider hasn't]]></name>
     <description><![CDATA[Base member has 'params' parameter, but overrider hasn't]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="BaseMethodCallWithDefaultParameter">
     <priority>MAJOR</priority>
     <name><![CDATA[Call to base member with implicit default parameters]]></name>
     <description><![CDATA[Call to base member with implicit default parameters]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="BaseObjectEqualsIsObjectEquals">
     <priority>MAJOR</priority>
     <name><![CDATA[Call to 'base.Equals(...)' is reference equality]]></name>
     <description><![CDATA[Call to 'base.Equals(...)' is reference equality]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="BaseObjectGetHashCodeCallInGetHashCode">
     <priority>MAJOR</priority>
     <name><![CDATA[Overriden GetHashCode calls base 'Object.GetHashCode()']]></name>
     <description><![CDATA[Overriden GetHashCode calls base 'Object.GetHashCode()']]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="BitwiseOperatorOnEnumWithoutFlags">
     <priority>MAJOR</priority>
     <name><![CDATA[Bitwise operation on enum which is not marked by [Flags] attribute]]></name>
     <description><![CDATA[Bitwise operation on enum which is not marked by [Flags] attribute]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="CanBeReplacedWithTryCastAndCheckForNull">
     <priority>MAJOR</priority>
     <name><![CDATA[Type check and direct cast can be replaced with try cast and check for null]]></name>
     <description><![CDATA[Type check and direct cast can be replaced with try cast and check for null]]></description>
+    <tag>clumsy</tag>
+    <tag>code-style</tag>
   </rule>
   <rule key="CannotApplyEqualityOperatorToType">
     <priority>MAJOR</priority>
     <name><![CDATA[Compare with '==' types marked by 'CannotApplyEqualityOperatorAttribute']]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Compare+with+%27%3D%3D%27+types+marked+by+%27CannotApplyEqualityOperatorAttribute%27">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="CenterTagIsObsolete">
     <priority>MAJOR</priority>
     <name>CenterTagIsObsolete</name>
     <description>CenterTagIsObsolete</description>
+    <tag>obsolete</tag>
   </rule>
   <rule key="CheckForReferenceEqualityInstead.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Check for reference equality instead: Check for reference equality instead]]></name>
     <description><![CDATA[Check for reference equality instead: Check for reference equality instead]]></description>
+    <tag>clumsy</tag>
+    <tag>code-style</tag>
   </rule>
   <rule key="CheckForReferenceEqualityInstead.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Check for reference equality instead: Check for reference equality instead]]></name>
     <description><![CDATA[Check for reference equality instead: Check for reference equality instead]]></description>
+    <tag>clumsy</tag>
+    <tag>code-style</tag>
   </rule>
   <rule key="CheckNamespace">
     <priority>MAJOR</priority>
@@ -176,41 +215,50 @@
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Namespace+does+not+correspond+to+file+location">See JetBrains
       documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>convention</tag>
   </rule>
   <rule key="ClassCanBeSealed.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Class can be made sealed(non-inheritable): Non-private accessibility]]></name>
     <description><![CDATA[Class can be made sealed(non-inheritable): Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="ClassCanBeSealed.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Class can be made sealed(non-inheritable): Private accessibility]]></name>
     <description><![CDATA[Class can be made sealed(non-inheritable): Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="ClassCannotBeInstantiated">
     <priority>MAJOR</priority>
     <name><![CDATA[Class cannot be instantiated]]></name>
     <description><![CDATA[Class cannot be instantiated]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ClassNeverInstantiated.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Class is never instantiated: Non-private accessibility]]></name>
     <description><![CDATA[Class is never instantiated: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="ClassNeverInstantiated.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Class is never instantiated: Private accessibility]]></name>
     <description><![CDATA[Class is never instantiated: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="ClassWithVirtualMembersNeverInherited.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Class with virtual(overridable) members never inherited: Non-private accessibility]]></name>
     <description><![CDATA[Class with virtual(overridable) members never inherited: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="ClassWithVirtualMembersNeverInherited.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Class with virtual(overridable) members never inherited: Private accessibility]]></name>
     <description><![CDATA[Class with virtual(overridable) members never inherited: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="ClearAttributeIsObsolete">
     <priority>MAJOR</priority>
@@ -227,140 +275,184 @@
     <name><![CDATA[Possible compare of value type with 'null']]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Possible+compare+of+value+type+with+null">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="CompareOfFloatsByEqualityOperator">
     <priority>MAJOR</priority>
     <name><![CDATA[Compare of float numbers with equality operator]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Compare+of+float+numbers+by+equality+operator">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>misra</tag>
   </rule>
   <rule key="ConditionalTernaryEqualBranch">
     <priority>MAJOR</priority>
     <name><![CDATA['?:' expression has identical true and false branches]]></name>
     <description><![CDATA['?:' expression has identical true and false branches]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ConditionIsAlwaysConst">
     <priority>MAJOR</priority>
     <name><![CDATA[Condition is always constant]]></name>
     <description><![CDATA[Condition is always constant]]></description>
+    <tag>bug</tag>
+    <tag>cwe</tag>
+    <tag>misra</tag>
   </rule>
   <rule key="ConditionIsAlwaysTrueOrFalse">
     <priority>MAJOR</priority>
     <name><![CDATA[Expression is always 'true' or always 'false']]></name>
     <description><![CDATA[Expression is always 'true' or always 'false']]></description>
+    <tag>bug</tag>
+    <tag>cwe</tag>
+    <tag>misra</tag>
   </rule>
   <rule key="ConstantNullCoalescingCondition">
     <priority>MAJOR</priority>
     <name><![CDATA['??' condition is known to be null or not null]]></name>
     <description><![CDATA['??' condition is known to be null or not null]]></description>
+    <tag>bug</tag>
+    <tag>cwe</tag>
+    <tag>misra</tag>
   </rule>
   <rule key="ConstructorInitializerLoop">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible cyclic constructor call]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Possible+cyclic+constructor+call">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ContractAnnotationNotParsed">
     <priority>MAJOR</priority>
     <name><![CDATA[Problem in contract annotation definition]]></name>
     <description><![CDATA[Problem in contract annotation definition]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ConvertClosureToMethodGroup">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert anonymous method to method group]]></name>
     <description><![CDATA[Convert anonymous method to method group]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertConditionalTernaryToNullCoalescing">
     <priority>MAJOR</priority>
     <name><![CDATA['?:' expression can be re-written as '??' expression]]></name>
     <description><![CDATA['?:' expression can be re-written as '??' expression]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertIfDoToWhile">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert 'if do while' to 'while]]></name>
     <description><![CDATA[Convert 'if do while' to 'while]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertIfStatementToConditionalTernaryExpression">
     <priority>MAJOR</priority>
     <name><![CDATA['if' statement can be re-written as '?:' expression]]></name>
     <description><![CDATA['if' statement can be re-written as '?:' expression]]></description>
+    <tag>brain-overload</tag>
   </rule>
   <rule key="ConvertIfStatementToNullCoalescingExpression">
     <priority>MAJOR</priority>
     <name><![CDATA['if' statement can be re-written as '??' expression]]></name>
     <description><![CDATA['if' statement can be re-written as '??' expression]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertIfStatementToReturnStatement">
     <priority>MAJOR</priority>
     <name><![CDATA['if-return' statement can be re-written as 'return' statement]]></name>
     <description><![CDATA['if-return' statement can be re-written as 'return' statement]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertIfStatementToSwitchStatement">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert 'if' statement to 'switch' statement]]></name>
     <description><![CDATA[Convert 'if' statement to 'switch' statement]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertIfToOrExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert 'if' to '||']]></name>
     <description><![CDATA[Convert 'if' to '||']]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertNullableToShortForm">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert 'Nullable<T>' to 'T?']]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/pages/viewpage.action?pageId=37235229">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertToAutoProperty">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert property to auto-property]]></name>
     <description><![CDATA[Convert property to auto-property]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertToAutoPropertyWithPrivateSetter">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert property to auto-property with private setter]]></name>
     <description><![CDATA[Convert property to auto-property with private setter]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertToConstant.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert local variable or field to constant: Non-private accessibility]]></name>
     <description><![CDATA[Convert local variable or field to constant: Non-private accessibility]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertToConstant.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert local variable or field to constant: Private accessibility]]></name>
     <description><![CDATA[Convert local variable or field to constant: Private accessibility]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertToLambdaExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert to lambda expression]]></name>
     <description><![CDATA[Convert to lambda expression]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ConvertToStaticClass">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert to static class]]></name>
     <description><![CDATA[Convert to static class]]></description>
+    <tag>convention</tag>
   </rule>
   <rule key="CoVariantArrayConversion">
     <priority>MAJOR</priority>
     <name><![CDATA[Co-variant array conversion]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Co-variant+array+conversion+may+cause+exception+on+write+operation">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="CSharpWarnings::CS0108">
     <priority>MAJOR</priority>
     <name><![CDATA[CS0108,CS0114:Keyword 'new' is required]]></name>
     <description><![CDATA[CS0108,CS0114:Keyword 'new' is required]]></description>
+    <tag>compiler-warning</tag>
+    <tag>bug</tag>
   </rule>
   <rule key="CSharpWarnings::CS0109">
     <priority>MAJOR</priority>
     <name><![CDATA[CS0109:Keyword 'new' is redundant]]></name>
     <description><![CDATA[CS0109:Keyword 'new' is redundant]]></description>
+    <tag>compiler-warning</tag>
+    <tag>bug</tag>
   </rule>
   <rule key="CSharpWarnings::CS0162">
     <priority>MAJOR</priority>
     <name><![CDATA[CS0162:Code is unreachable]]></name>
     <description><![CDATA[CS0162:Code is unreachable]]></description>
+    <tag>compiler-warning</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="CSharpWarnings::CS0183">
     <priority>MAJOR</priority>
@@ -411,11 +503,15 @@
     <priority>MAJOR</priority>
     <name><![CDATA[CS0628:Declaring new protected member in sealed class is the same as declaring it as private]]></name>
     <description><![CDATA[CS0628:Declaring new protected member in sealed class is the same as declaring it as private]]></description>
+    <tag>confusing</tag>
   </rule>
   <rule key="CSharpWarnings::CS0642">
     <priority>MAJOR</priority>
     <name><![CDATA[CS0642:Possible mistaken empty statement]]></name>
     <description><![CDATA[CS0642:Possible mistaken empty statement]]></description>
+    <tag>cert</tag>
+    <tag>misra</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="CSharpWarnings::CS0657">
     <priority>MAJOR</priority>
@@ -431,6 +527,7 @@
     <priority>MAJOR</priority>
     <name><![CDATA[CS0659:Class overrides Object.Equals(object o) but not Object.GetHashCode()]]></name>
     <description><![CDATA[CS0659:Class overrides Object.Equals(object o) but not Object.GetHashCode()]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="CSharpWarnings::CS0660">
     <priority>MAJOR</priority>
@@ -554,16 +651,20 @@
     <priority>MAJOR</priority>
     <name><![CDATA[CS1957:Multiple override candidates at run-time]]></name>
     <description><![CDATA[CS1957:Multiple override candidates at run-time]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="CSharpWarnings::CS1998">
     <priority>MAJOR</priority>
     <name><![CDATA[CS1998:Async function without await expression]]></name>
     <description><![CDATA[CS1998:Async function without await expression]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="CSharpWarnings::CS4014">
     <priority>MAJOR</priority>
     <name><![CDATA[CS4014:Async method invocation without await expression]]></name>
     <description><![CDATA[CS4014:Async method invocation without await expression]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="CSharpWarnings::WME006">
     <priority>MAJOR</priority>
@@ -584,16 +685,20 @@
     <priority>MAJOR</priority>
     <name><![CDATA[CSS symbol is obsolete]]></name>
     <description><![CDATA[CSS symbol is obsolete]]></description>
+    <tag>obsolete</tag>
   </rule>
   <rule key="CssPropertyDoesNotOverrideVendorProperty">
     <priority>MAJOR</priority>
     <name><![CDATA[Property does not override vendor-prefixed property]]></name>
     <description><![CDATA[Property does not override vendor-prefixed property]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="DeclarationIsEmpty">
     <priority>MAJOR</priority>
     <name><![CDATA[Declaration is empty]]></name>
     <description><![CDATA[Declaration is empty]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="DefaultValueAttributeForOptionalParameter">
     <priority>MAJOR</priority>
@@ -606,23 +711,31 @@
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Delegate+subtraction+has+unpredictable+semantics">See JetBrains
       documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
+    <tag>unpredictable</tag>
   </rule>
   <rule key="DlTagContainsNonDtOrDdElements">
     <priority>MAJOR</priority>
     <name>DlTagContainsNonDtOrDdElements</name>
     <description>DlTagContainsNonDtOrDdElements</description>
+    <tag>bug</tag>
   </rule>
   <rule key="DoNotCallOverridableMethodsInConstructor">
     <priority>MAJOR</priority>
     <name><![CDATA[Virtual member call in constructor]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Virtual+method+call+in+constructor">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="DoubleNegationOperator">
     <priority>MAJOR</priority>
     <name><![CDATA[Double negation operator]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Double+negation+operator">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="DuplicateResource">
     <priority>MAJOR</priority>
@@ -643,11 +756,14 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Duplicate switch label]]></name>
     <description><![CDATA[Duplicate switch label]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="DynamicShiftRightOpIsNotInt">
     <priority>MAJOR</priority>
     <name><![CDATA[Right operand of dynamic shift operation should be convertible to 'int']]></name>
     <description><![CDATA[Right operand of dynamic shift operation should be convertible to 'int']]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ElidedTrailingElement">
     <priority>MAJOR</priority>
@@ -727,21 +843,25 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Event never invoked]]></name>
     <description><![CDATA[Event never invoked]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="EventNeverInvoked.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Abstract or virtual(overridable) event is never invoked]]></name>
     <description><![CDATA[Abstract or virtual(overridable) event is never invoked]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="EventNeverSubscribedTo.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Event is never subscribed to: Non-private accessibility]]></name>
     <description><![CDATA[Event is never subscribed to: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="EventNeverSubscribedTo.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Event is never subscribed to: Private accessibility]]></name>
     <description><![CDATA[Event is never subscribed to: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="EventUnsubscriptionViaAnonymousDelegate">
     <priority>MAJOR</priority>
@@ -813,11 +933,13 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Heuristically unreachable code]]></name>
     <description><![CDATA[Heuristically unreachable code]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="HeuristicUnreachableCode">
     <priority>MAJOR</priority>
     <name><![CDATA[Heuristically unreachable code]]></name>
     <description><![CDATA[Heuristically unreachable code]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="HexColorValueWithAlpha">
     <priority>MAJOR</priority>
@@ -944,6 +1066,7 @@
     <name><![CDATA[Invert 'if' statement to reduce nesting]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Invert+'if'+to+reduce+nesting">See JetBrains documentation.</a></p>]]></description>
+    <tag>brain-overload</tag>
   </rule>
   <rule key="InvocationIsSkipped">
     <priority>MAJOR</priority>
@@ -955,11 +1078,15 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Invocation of non-function expression]]></name>
     <description><![CDATA[Invocation of non-function expression]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="InvokeAsExtensionMethod">
     <priority>MAJOR</priority>
     <name><![CDATA[Convert static method invocation to extension method call]]></name>
     <description><![CDATA[Convert static method invocation to extension method call]]></description>
+    <tag>brain-overload</tag>
+    <tag>convention</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="InvokedExpressionMaybeNonFunction">
     <priority>MAJOR</priority>
@@ -975,6 +1102,7 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Join local variable declaration and assignment]]></name>
     <description><![CDATA[Join local variable declaration and assignment]]></description>
+    <tag>brain-overload</tag>
   </rule>
   <rule key="JsFunctionCanBeConvertedToLambda">
     <priority>MAJOR</priority>
@@ -1154,52 +1282,63 @@
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Unknown action]]></name>
     <description><![CDATA[MVC: Unknown action]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Mvc.AreaNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Unknown area]]></name>
     <description><![CDATA[MVC: Unknown area]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Mvc.ControllerNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Unknown controller]]></name>
     <description><![CDATA[MVC: Unknown controller]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Mvc.InvalidModelType">
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Mismatch Model Type]]></name>
     <description><![CDATA[MVC: Mismatch Model Type]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Mvc.MasterpageNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Unknown masterpage]]></name>
     <description><![CDATA[MVC: Unknown masterpage]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Mvc.PartialViewNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Unknown partial view]]></name>
     <description><![CDATA[MVC: Unknown partial view]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Mvc.TemplateNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Unknown template]]></name>
     <description><![CDATA[MVC: Unknown template]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="Mvc.ViewNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[MVC: Unknown view]]></name>
     <description><![CDATA[MVC: Unknown view]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="NegativeEqualityExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Simplify negative equality expression]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Simplify+negative+equality+expression">See JetBrains documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="NonReadonlyFieldInGetHashCode">
     <priority>MAJOR</priority>
     <name><![CDATA[Non-readonly field referenced in 'GetHashCode()']]></name>
     <description><![CDATA[Non-readonly field referenced in 'GetHashCode()']]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="NonVolatileFieldInDoubleCheckLocking">
     <priority>MAJOR</priority>
@@ -1207,36 +1346,44 @@
       call]]></name>
     <description><![CDATA[Possible incorrect implementation of Double-Check Locking. Checked field must be volatile or assigned from local variable after
       'Thread.MemoryBarrier()' call]]></description>
+    <tag>bug</tag>
+    <tag>multi-threading</tag>
   </rule>
   <rule key="NotAccessedField.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Non-accessed field: Non-private accessibility]]></name>
     <description><![CDATA[Non-accessed field: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="NotAccessedField.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Non-accessed field: Private accessibility]]></name>
     <description><![CDATA[Non-accessed field: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="NotAccessedVariable">
     <priority>MAJOR</priority>
     <name><![CDATA[Non-accessed local variable]]></name>
     <description><![CDATA[Non-accessed local variable]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="NotAccessedVariable.Compiler">
     <priority>MAJOR</priority>
     <name><![CDATA[Non-accessed local variable]]></name>
     <description><![CDATA[Non-accessed local variable]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="NotAllPathsReturnValue">
     <priority>MAJOR</priority>
     <name><![CDATA[Not all code paths return a value]]></name>
     <description><![CDATA[Not all code paths return a value]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="NotAssignedOutParameter">
     <priority>MAJOR</priority>
     <name><![CDATA['out' parameter is not assigned upon exit]]></name>
     <description><![CDATA['out' parameter is not assigned upon exit]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="NotDeclaredInParentCulture">
     <priority>MAJOR</priority>
@@ -1262,16 +1409,20 @@
     <priority>MAJOR</priority>
     <name>NUnit.NonPublicMethodWithTestAttribute</name>
     <description>NUnit.NonPublicMethodWithTestAttribute</description>
+    <tag>nunit</tag>
   </rule>
   <rule key="ObjectCreationAsStatement">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible unassigned object created by 'new' expression]]></name>
     <description><![CDATA[Possible unassigned object created by 'new' expression]]></description>
+    <tag>unused</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="OlTagContainsNonLiElements">
     <priority>MAJOR</priority>
     <name>OlTagContainsNonLiElements</name>
     <description>OlTagContainsNonLiElements</description>
+    <tag>bug</tag>
   </rule>
   <rule key="OperatorIsCanBeUsed">
     <priority>MAJOR</priority>
@@ -1322,37 +1473,44 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Parameter hides member]]></name>
     <description><![CDATA[Parameter hides member]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="ParameterTypeCanBeEnumerable.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Parameter type can be IEnumerable<T>: Non-private accessibility]]></name>
     <description><![CDATA[Parameter type can be IEnumerable<T>: Non-private accessibility]]></description>
+    <tag>generalize</tag>
   </rule>
   <rule key="ParameterTypeCanBeEnumerable.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Parameter type can be IEnumerable<T>: Private accessibility]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Parameter+type+can+be+IEnumerable+of+T">See JetBrains documentation.</a></p>]]></description>
+    <tag>generalize</tag>
   </rule>
   <rule key="ParameterValueIsNotUsed">
     <priority>MAJOR</priority>
     <name><![CDATA[Parameter value is not used]]></name>
     <description><![CDATA[Parameter value is not used]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="PartialMethodParameterNameMismatch">
     <priority>MAJOR</priority>
     <name><![CDATA[Parameter name differs in partial method declaration]]></name>
     <description><![CDATA[Parameter name differs in partial method declaration]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PartialMethodWithSinglePart">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'partial' modifier on method declaration]]></name>
     <description><![CDATA[Redundant 'partial' modifier on method declaration]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="PartialTypeWithSinglePart">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'partial' modifier on type declaration]]></name>
     <description><![CDATA[Redundant 'partial' modifier on type declaration]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="PathNotResolved">
     <priority>MAJOR</priority>
@@ -1364,6 +1522,8 @@
     <name><![CDATA[Invocation of polymorphic field-like event]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Invocation+of+polymorphic+field-like+event">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleAssignmentToReadonlyField">
     <priority>MAJOR</priority>
@@ -1371,63 +1531,81 @@
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Assignment+to+a+property+of+a+readonly+field+can+be+useless">See JetBrains
       documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleInfiniteInheritance">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible infinite inheritance]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Possible+infinite+inheritance">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PossibleIntendedRethrow">
     <priority>MAJOR</priority>
     <name><![CDATA[Exception rethrow possibly intended]]></name>
     <description><![CDATA[Exception rethrow possibly intended]]></description>
+    <tag>error-handling</tag>
   </rule>
   <rule key="PossibleInterfaceMemberAmbiguity">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible ambiguity while accessing member by interface]]></name>
     <description><![CDATA[Possible ambiguity while accessing member by interface]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleInvalidCastException">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible 'System.InvalidCastException']]></name>
     <description><![CDATA[Possible 'System.InvalidCastException']]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PossibleInvalidCastExceptionInForeachLoop">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible 'System.InvalidCastException' in foreach loop]]></name>
     <description><![CDATA[Possible 'System.InvalidCastException' in foreach loop]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PossibleInvalidOperationException">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible 'System.InvalidOperationException']]></name>
     <description><![CDATA[Possible 'System.InvalidOperationException']]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PossibleLossOfFraction">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible loss of fraction]]></name>
     <description><![CDATA[Possible loss of fraction]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleMistakenArgument">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible mistaken argument: Possible mistaken argument]]></name>
     <description><![CDATA[Possible mistaken argument: Possible mistaken argument]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleMistakenCallToGetType.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></name>
     <description><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleMistakenCallToGetType.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></name>
     <description><![CDATA[Possible mistaken call to GetType(): Possible mistaken call to GetType()]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleMultipleEnumeration">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible multiple enumeration of IEnumerable]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Possible+multiple+enumeration+of+IEnumerable">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleMultipleWriteAccessInDoubleCheckLocking">
     <priority>MAJOR</priority>
@@ -1435,62 +1613,79 @@
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Possible+multiple+write+access+in+double-checked+locking">See JetBrains
       documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>multi-threading</tag>
   </rule>
   <rule key="PossibleNullReferenceException">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible 'System.NullReferenceException']]></name>
     <description><![CDATA[Possible 'System.NullReferenceException']]></description>
+    <tag>bug</tag>
+    <tag>error-handling</tag>
   </rule>
   <rule key="PossibleUnintendedReferenceComparison">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible unintended reference comparison]]></name>
     <description><![CDATA[Possible unintended reference comparison]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossibleWriteToMe">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible write to 'Me']]></name>
     <description><![CDATA[Possible write to 'Me']]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PossiblyMistakenUseOfParamsMethod">
     <priority>MAJOR</priority>
     <name><![CDATA[Method with 'params' is invoked while more specific method is available]]></name>
     <description><![CDATA[Method with 'params' is invoked while more specific method is available]]></description>
+    <tag>bug</tag>
+    <tag>overload-selection</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="PossiblyUnassignedProperty">
     <priority>MAJOR</priority>
     <name><![CDATA[Use of possibly unassigned property or global variable]]></name>
     <description><![CDATA[Use of possibly unassigned property or global variable]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PrivateFieldCanBeConvertedToLocalVariable">
     <priority>MAJOR</priority>
     <name><![CDATA[Private field can be converted to local variable]]></name>
     <description><![CDATA[Private field can be converted to local variable]]></description>
+    <tag>brain-overload</tag>
   </rule>
   <rule key="PropertyGetterCannotHaveParameters">
     <priority>MAJOR</priority>
     <name><![CDATA[Property getter cannot have parameters]]></name>
     <description><![CDATA[Property getter cannot have parameters]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PropertyNotResolved">
     <priority>MAJOR</priority>
     <name><![CDATA[Cannot resolve property]]></name>
     <description><![CDATA[Cannot resolve property]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PropertySetterMustHaveSingleParameter">
     <priority>MAJOR</priority>
     <name><![CDATA[Property setter must have a single parameter]]></name>
     <description><![CDATA[Property setter must have a single parameter]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="PublicConstructorInAbstractClass">
     <priority>MAJOR</priority>
     <name><![CDATA[Make constructor in abstract class protected]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Make+constructor+in+abstract+class+protected">See JetBrains documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="PureAttributeOnVoidMethod">
     <priority>MAJOR</priority>
     <name><![CDATA['void' method is annotated by [Pure]]]></name>
     <description><![CDATA['void' method is annotated by [Pure]]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="QualifiedExpressionIsNull">
     <priority>MAJOR</priority>
@@ -1506,230 +1701,283 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown Razor section]]></name>
     <description><![CDATA[Unknown Razor section]]></description>
+    <tag>asp.net</tag>
   </rule>
   <rule key="ReadAccessInDoubleCheckLocking">
     <priority>MAJOR</priority>
     <name><![CDATA[Possible incorrect implementation of Double-Check Locking pattern. Read access to checked field]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Read+access+in+double+checked+locking">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>multi-threading</tag>
   </rule>
   <rule key="Redundant">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant code]]></name>
     <description><![CDATA[Redundant code]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantAnonymousTypePropertyName">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant anonymous type property explicit name]]></name>
     <description><![CDATA[Redundant anonymous type property explicit name]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantArgumentDefaultValue">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant argument with default value]]></name>
     <description><![CDATA[Redundant argument with default value]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantArgumentName">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant explicit argument name specification]]></name>
     <description><![CDATA[Redundant explicit argument name specification]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantArgumentNameForLiteralExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant explicit argument name specification for literal expression]]></name>
     <description><![CDATA[Redundant explicit argument name specification for literal expression]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantArrayCreationExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Array creation can be replaced with array initializer]]></name>
     <description><![CDATA[Array creation can be replaced with array initializer]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantArrayLowerBoundSpecification">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant array lower bound specification]]></name>
     <description><![CDATA[Redundant array lower bound specification]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantAssignment">
     <priority>MAJOR</priority>
     <name><![CDATA[Assignment is not used]]></name>
     <description><![CDATA[Assignment is not used]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="RedundantAttributeParentheses">
     <priority>MAJOR</priority>
     <name><![CDATA[Parentheses are redundant if attribute has no arguments]]></name>
     <description><![CDATA[Parentheses are redundant if attribute has no arguments]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantBaseConstructorCall">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant base constructor call]]></name>
     <description><![CDATA[Redundant base constructor call]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantBaseQualifier">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'base.' qualifier]]></name>
     <description><![CDATA[Redundant 'base.' qualifier]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantBoolCompare">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant boolean comparison]]></name>
     <description><![CDATA[Redundant boolean comparison]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantCaseLabel">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'case' label]]></name>
     <description><![CDATA[Redundant 'case' label]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantCast">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant cast]]></name>
     <description><![CDATA[Redundant cast]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantCast.0">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant cast to 'object': Redundant cast to 'object']]></name>
     <description><![CDATA[Redundant cast to 'object': Redundant cast to 'object']]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantCatchClause">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant catch clause]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Catch+clause+is+redundant">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>error-handling</tag>
   </rule>
   <rule key="RedundantCheckBeforeAssignment">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant condition check before assignments]]></name>
     <description><![CDATA[Redundant condition check before assignments]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantCollectionInitializerElementBraces">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant braces in collection initializer]]></name>
     <description><![CDATA[Redundant braces in collection initializer]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantCommaInArrayInitializer">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant comma in array initializer]]></name>
     <description><![CDATA[Redundant comma in array initializer]]></description>
+    <tag>clumsy</tag>
+    <tag>convention</tag>
   </rule>
   <rule key="RedundantComparisonWithNull">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant comparison with 'null']]></name>
     <description><![CDATA[Redundant comparison with 'null']]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantDefaultFieldInitializer">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant field initializer]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Redundant+field+initializer">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantDelegateCreation">
     <priority>MAJOR</priority>
     <name><![CDATA[Explicit delegate creation expression is redundant]]></name>
     <description><![CDATA[Explicit delegate creation expression is redundant]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantEmptyCaseElse">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant empty Case Else statement]]></name>
     <description><![CDATA[Redundant empty Case Else statement]]></description>
+    <tag>bug</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantEmptyDefaultSwitchBranch">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant empty default switch branch]]></name>
     <description><![CDATA[Redundant empty default switch branch]]></description>
+    <tag>bug</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantEmptyFinallyBlock">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant empty finally block]]></name>
     <description><![CDATA[Redundant empty finally block]]></description>
+    <tag>bug</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantEmptyObjectCreationArgumentList">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant empty argument list on object creation expression]]></name>
     <description><![CDATA[Redundant empty argument list on object creation expression]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantEmptyObjectOrCollectionInitializer">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant empty object or collection initializer]]></name>
     <description><![CDATA[Redundant empty object or collection initializer]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantEnumerableCastCall">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'IEnumerable.Cast<T>' or 'IEnumerable.OfType<T>' call]]></name>
     <description><![CDATA[Redundant 'IEnumerable.Cast<T>' or 'IEnumerable.OfType<T>' call]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantExplicitArrayCreation">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant explicit type in array creation]]></name>
     <description><![CDATA[Redundant explicit type in array creation]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantExplicitArraySize">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant explicit size specification in array creation]]></name>
     <description><![CDATA[Redundant explicit size specification in array creation]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantExplicitNullableCreation">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant explicit nullable type creation]]></name>
     <description><![CDATA[Redundant explicit nullable type creation]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantExtendsListEntry">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant class or interface specification in base types list]]></name>
     <description><![CDATA[Redundant class or interface specification in base types list]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantIfElseBlock">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'else' keyword]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Redundant+'else'+keyword">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantIteratorKeyword">
     <priority>MAJOR</priority>
     <name><![CDATA[Iterator function without Yield statements]]></name>
     <description><![CDATA[Iterator function without Yield statements]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="RedundantJumpStatement">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant control flow jump statement]]></name>
     <description><![CDATA[Redundant control flow jump statement]]></description>
+    <tag>brain-overload</tag>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantLambdaParameterType">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant lambda parameter explicit type specification]]></name>
     <description><![CDATA[Redundant lambda parameter explicit type specification]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantLambdaSignatureParentheses">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant lambda signature parentheses]]></name>
     <description><![CDATA[Redundant lambda signature parentheses]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantLocalFunctionName">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant local function name]]></name>
     <description><![CDATA[Redundant local function name]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantLogicalConditionalExpressionOperand">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant operand in logical conditional expression]]></name>
     <description><![CDATA[Redundant operand in logical conditional expression]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="RedundantMeQualifier">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'Me.' qualifier]]></name>
     <description><![CDATA[Redundant 'Me.' qualifier]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantMyBaseQualifier">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'MyBase.' qualifier]]></name>
     <description><![CDATA[Redundant 'MyBase.' qualifier]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantMyClassQualifier">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant 'MyClass.' qualifier]]></name>
     <description><![CDATA[Redundant 'MyClass.' qualifier]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantNameQualifier">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant name qualifier]]></name>
     <description><![CDATA[Redundant name qualifier]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RedundantOverload.Global">
     <priority>MAJOR</priority>
@@ -1805,288 +2053,349 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unsafe context declaration is redundant]]></name>
     <description><![CDATA[Unsafe context declaration is redundant]]></description>
+    <tag>clumsy</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="RedundantUsingDirective">
     <priority>MAJOR</priority>
     <name><![CDATA[Redundant using directive]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Redundant+using+directive">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="ReferenceEqualsWithValueType">
     <priority>MAJOR</priority>
     <name><![CDATA['Object.ReferenceEquals' is always false because it is called with value type]]></name>
     <description><![CDATA['Object.ReferenceEquals' is always false because it is called with value type]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="RemoveConstuctorInvocation">
     <priority>MAJOR</priority>
     <name><![CDATA[Remove constuctor invocation: Remove constuctor invocation]]></name>
     <description><![CDATA[Remove constuctor invocation: Remove constuctor invocation]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RemoveRedundantOrStatement.False">
     <priority>MAJOR</priority>
     <name><![CDATA[Remove redundant statement: Remove redundant statement]]></name>
     <description><![CDATA[Remove redundant statement: Remove redundant statement]]></description>
+    <tag>clumsy</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="RemoveRedundantOrStatement.True">
     <priority>MAJOR</priority>
     <name><![CDATA[Remove redundant statement: Remove redundant statement]]></name>
     <description><![CDATA[Remove redundant statement: Remove redundant statement]]></description>
+    <tag>clumsy</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="RemoveToList.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Remove ToList(): Remove ToList()]]></name>
     <description><![CDATA[Remove ToList(): Remove ToList()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RemoveToList.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Remove ToList(): Remove ToList()]]></name>
     <description><![CDATA[Remove ToList(): Remove ToList()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithFirstOrDefault.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></name>
     <description><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithFirstOrDefault.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></name>
     <description><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithFirstOrDefault.3">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></name>
     <description><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithFirstOrDefault.4">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></name>
     <description><![CDATA[Replace with FirstOrDefault($args$): Replace with FirstOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithLastOrDefault.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></name>
     <description><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithLastOrDefault.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></name>
     <description><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithLastOrDefault.3">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></name>
     <description><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithLastOrDefault.4">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></name>
     <description><![CDATA[Replace with LastOrDefault($args$): Replace with LastOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>(): Replace with OfType<T>()]]></name>
     <description><![CDATA[Replace with OfType<T>(): Replace with OfType<T>()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>(): Replace with OfType<T>()]]></name>
     <description><![CDATA[Replace with OfType<T>(): Replace with OfType<T>()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.3">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>(): Replace with OfType<T>()]]></name>
     <description><![CDATA[Replace with OfType<T>(): Replace with OfType<T>()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Any.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Any(): Replace with OfType<T>().Any()]]></name>
     <description><![CDATA[Replace with OfType<T>().Any(): Replace with OfType<T>().Any()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Any.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Any(): Replace with OfType<T>().Any(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().Any(): Replace with OfType<T>().Any(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Count.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Count(): Replace with OfType<T>().Count()]]></name>
     <description><![CDATA[Replace with OfType<T>().Count(): Replace with OfType<T>().Count()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Count.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Count(): Replace with OfType<T>().Count(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().Count(): Replace with OfType<T>().Count(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.First.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().First(): Replace with OfType<T>().First()]]></name>
     <description><![CDATA[Replace with OfType<T>().First(): Replace with OfType<T>().First()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.First.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().First(): Replace with OfType<T>().First(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().First(): Replace with OfType<T>().First(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.FirstOrDefault.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType<T>().FirstOrDefault()]]></name>
     <description><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType<T>().FirstOrDefault()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.FirstOrDefault.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType<T>().FirstOrDefault(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().FirstOrDefault(): Replace with OfType<T>().FirstOrDefault(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Last.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Last(): Replace with OfType<T>().Last()]]></name>
     <description><![CDATA[Replace with OfType<T>().Last(): Replace with OfType<T>().Last()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Last.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Last(): Replace with OfType<T>().Last(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().Last(): Replace with OfType<T>().Last(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.LastOrDefault.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType<T>().LastOrDefault()]]></name>
     <description><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType<T>().LastOrDefault()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.LastOrDefault.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType<T>().LastOrDefault(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().LastOrDefault(): Replace with OfType<T>().LastOrDefault(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.LongCount">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().LongCount(): Replace with OfType<T>().LongCount()]]></name>
     <description><![CDATA[Replace with OfType<T>().LongCount(): Replace with OfType<T>().LongCount()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Single.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Single(): Replace with OfType<T>().Single()]]></name>
     <description><![CDATA[Replace with OfType<T>().Single(): Replace with OfType<T>().Single()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Single.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Single(): Replace with OfType<T>().Single(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().Single(): Replace with OfType<T>().Single(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.SingleOrDefault.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType<T>().SingleOrDefault()]]></name>
     <description><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType<T>().SingleOrDefault()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.SingleOrDefault.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType<T>().SingleOrDefault(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().SingleOrDefault(): Replace with OfType<T>().SingleOrDefault(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithOfType.Where">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with OfType<T>().Where(): Replace with OfType<T>().Where(..)]]></name>
     <description><![CDATA[Replace with OfType<T>().Where(): Replace with OfType<T>().Where(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSimpleAssignment.False">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with simple assignment: Replace with simple assignment]]></name>
     <description><![CDATA[Replace with simple assignment: Replace with simple assignment]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSimpleAssignment.True">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with simple assignment: Replace with simple assignment]]></name>
     <description><![CDATA[Replace with simple assignment: Replace with simple assignment]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleAssignment.False">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single assignment: Replace with single assignment]]></name>
     <description><![CDATA[Replace with single assignment: Replace with single assignment]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleAssignment.True">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single assignment: Replace with single assignment]]></name>
     <description><![CDATA[Replace with single assignment: Replace with single assignment]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToAny">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to Any(..): Replace with single call to Any(..)]]></name>
     <description><![CDATA[Replace with single call to Any(..): Replace with single call to Any(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToCount">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to Count(..): Replace with single call to Count(..)]]></name>
     <description><![CDATA[Replace with single call to Count(..): Replace with single call to Count(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToFirst">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to First(..): Replace with single call to First(..)]]></name>
     <description><![CDATA[Replace with single call to First(..): Replace with single call to First(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToFirstOrDefault">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to FirstOrDefault(..): Replace with single call to FirstOrDefault(..)]]></name>
     <description><![CDATA[Replace with single call to FirstOrDefault(..): Replace with single call to FirstOrDefault(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToLast">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to Last(..): Replace with single call to Last(..)]]></name>
     <description><![CDATA[Replace with single call to Last(..): Replace with single call to Last(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToLastOrDefault">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to LastOrDefault(..): Replace with single call to LastOrDefault(..)]]></name>
     <description><![CDATA[Replace with single call to LastOrDefault(..): Replace with single call to LastOrDefault(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToSingle">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to Single(..): Replace with single call to Single(..)]]></name>
     <description><![CDATA[Replace with single call to Single(..): Replace with single call to Single(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleCallToSingleOrDefault">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with single call to SingleOrDefault(..): Replace with single call to SingleOrDefault(..)]]></name>
     <description><![CDATA[Replace with single call to SingleOrDefault(..): Replace with single call to SingleOrDefault(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleOrDefault.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></name>
     <description><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleOrDefault.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></name>
     <description><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleOrDefault.3">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></name>
     <description><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithSingleOrDefault.4">
     <priority>MAJOR</priority>
     <name><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></name>
     <description><![CDATA[Replace with SingleOrDefault($args$): Replace with SingleOrDefault($args$)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="ReplaceWithStringIsNullOrEmpty">
     <priority>MAJOR</priority>
     <name><![CDATA[Use 'String.IsNullOrEmpty']]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a href="http://confluence.jetbrains.net/display/ReSharper/Use+'String.IsNullOrEmpty'">See
       JetBrains documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="RequiredBaseTypesConflict">
     <priority>MAJOR</priority>
     <name><![CDATA[Required base type conflicting another type]]></name>
     <description><![CDATA[Required base type conflicting another type]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="RequiredBaseTypesDirectConflict">
     <priority>MAJOR</priority>
     <name><![CDATA[Type specified in BaseTypeRequired attribure conflicts another type]]></name>
     <description><![CDATA[Type specified in BaseTypeRequired attribure conflicts another type]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="RequiredBaseTypesIsNotInherited">
     <priority>MAJOR</priority>
     <name><![CDATA[Base type is required]]></name>
     <description><![CDATA[Base type is required]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="RequiresFallbackColor">
     <priority>MAJOR</priority>
@@ -2144,32 +2453,38 @@
     <name><![CDATA[Sealed member in sealed class]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Sealed+member+in+sealed+class">See JetBrains documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="SimilarAnonymousTypeNearby">
     <priority>MAJOR</priority>
     <name><![CDATA[Similar anonymous type detected nearby]]></name>
     <description><![CDATA[Similar anonymous type detected nearby]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="SimplifyConditionalOperator">
     <priority>MAJOR</priority>
     <name><![CDATA[Simplify conditional operator]]></name>
     <description><![CDATA[Simplify conditional operator]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="SimplifyConditionalTernaryExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Simplify conditional ternary expression]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Simplify+conditional+ternary+expression">See JetBrains documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="SimplifyIIf">
     <priority>MAJOR</priority>
     <name><![CDATA[Simplify 'IIf']]></name>
     <description><![CDATA[Simplify 'IIf']]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="SimplifyLinqExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Simplify LINQ expression]]></name>
     <description><![CDATA[Simplify LINQ expression]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="SpecifyACultureInStringConversionExplicitly">
     <priority>MAJOR</priority>
@@ -2177,101 +2492,122 @@
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Specify+a+culture+in+string+conversion+explicitly">See JetBrains
       documentation.</a></p>]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="SpecifyStringComparison">
     <priority>MAJOR</priority>
     <name><![CDATA[Specify string comparison explicitly]]></name>
     <description><![CDATA[Specify string comparison explicitly]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StatementIsNotTerminated">
     <priority>MAJOR</priority>
     <name><![CDATA[Statement is not terminated with semicolon]]></name>
     <description><![CDATA[Statement is not terminated with semicolon]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="StaticFieldInGenericType">
     <priority>MAJOR</priority>
     <name><![CDATA[Static field in generic type]]></name>
     <description><![CDATA[Static field in generic type]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StaticFieldInitializersReferesToFieldBelow">
     <priority>MAJOR</priority>
     <name><![CDATA[Static field initializer refers to static field below or in other part]]></name>
     <description><![CDATA[Static field initializer refers to static field below or in other part]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringCompareIsCultureSpecific.1">
     <priority>MAJOR</priority>
     <name><![CDATA[String.Compare is culture-specific: String.Compare(string, string) is culture-specific]]></name>
     <description><![CDATA[String.Compare is culture-specific: String.Compare(string, string) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringCompareIsCultureSpecific.2">
     <priority>MAJOR</priority>
     <name><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></name>
     <description><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringCompareIsCultureSpecific.3">
     <priority>MAJOR</priority>
     <name><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></name>
     <description><![CDATA[String.Compare is culture-specific: String.Compare(string, string, bool) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringCompareIsCultureSpecific.4">
     <priority>MAJOR</priority>
     <name><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int) is culture-specific]]></name>
     <description><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringCompareIsCultureSpecific.5">
     <priority>MAJOR</priority>
     <name><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></name>
     <description><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringCompareIsCultureSpecific.6">
     <priority>MAJOR</priority>
     <name><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></name>
     <description><![CDATA[String.Compare is culture-specific: String.Compare(string, int, string, int, bool) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringCompareToIsCultureSpecific">
     <priority>MAJOR</priority>
     <name><![CDATA[String.CompareTo is culture-specific: String.CompareTo is culture-specific]]></name>
     <description><![CDATA[String.CompareTo is culture-specific: String.CompareTo is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringEndsWithIsCultureSpecific">
     <priority>MAJOR</priority>
     <name><![CDATA[String.EndsWith is culture-specific: String.EndsWith(string) is culture-specific]]></name>
     <description><![CDATA[String.EndsWith is culture-specific: String.EndsWith(string) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringIndexOfIsCultureSpecific.1">
     <priority>MAJOR</priority>
     <name><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string) is culture-specific]]></name>
     <description><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringIndexOfIsCultureSpecific.2">
     <priority>MAJOR</priority>
     <name><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></name>
     <description><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringIndexOfIsCultureSpecific.3">
     <priority>MAJOR</priority>
     <name><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></name>
     <description><![CDATA[String.IndexOf is culture-specific: String.IndexOf(string, int) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringLastIndexOfIsCultureSpecific.1">
     <priority>MAJOR</priority>
     <name><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string) is culture-specific]]></name>
     <description><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringLastIndexOfIsCultureSpecific.2">
     <priority>MAJOR</priority>
     <name><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></name>
     <description><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringLastIndexOfIsCultureSpecific.3">
     <priority>MAJOR</priority>
     <name><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></name>
     <description><![CDATA[String.LastIndexOf is culture-specific: String.LastIndexOf(string, int) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="StringStartsWithIsCultureSpecific">
     <priority>MAJOR</priority>
     <name><![CDATA[String.StartsWith is culture-specific: String.StartsWith(string) is culture-specific]]></name>
     <description><![CDATA[String.StartsWith is culture-specific: String.StartsWith(string) is culture-specific]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="SuggestBaseTypeForParameter">
     <priority>MAJOR</priority>
@@ -2282,6 +2618,8 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Use 'var' keyword when possible]]></name>
     <description><![CDATA[Use 'var' keyword when possible]]></description>
+    <tag>clumsy</tag>
+    <tag>code-style</tag>
   </rule>
   <rule key="SuggestUseVarKeywordEvident">
     <priority>MAJOR</priority>
@@ -2289,26 +2627,32 @@
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/Use+'var'+keyword+when+initializer+explicitly+declares+type">See JetBrains
       documentation.</a></p>]]></description>
+    <tag>clumsy</tag>
+    <tag>code-style</tag>
   </rule>
   <rule key="SuspiciousTypeConversion.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Suspicious type conversion or check]]></name>
     <description><![CDATA[Suspicious type conversion or check]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="SyntaxIsNotAllowed">
     <priority>MAJOR</priority>
     <name><![CDATA[Syntax is not allowed in specified CSS version]]></name>
     <description><![CDATA[Syntax is not allowed in specified CSS version]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="TailRecursiveCall">
     <priority>MAJOR</priority>
     <name><![CDATA[Tail recursive call may be replaced with loop]]></name>
     <description><![CDATA[Tail recursive call may be replaced with loop]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="TasksNotLoaded">
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown tasks assembly]]></name>
     <description><![CDATA[Unknown tasks assembly]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ThisInGlobalContext">
     <priority>MAJOR</priority>
@@ -2320,27 +2664,32 @@
     <name><![CDATA[[ThreadStatic] doesn't work with instance fields]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/%27ThreadStaticAttribute%27+usage">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ThreadStaticFieldHasInitializer">
     <priority>MAJOR</priority>
     <name><![CDATA[Thread static field has initializer]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/%27ThreadStaticAttribute%27+usage">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="ThrowMustBeFollowedByExpression">
     <priority>MAJOR</priority>
     <name><![CDATA[Expression is expected after 'throw' statement]]></name>
     <description><![CDATA[Expression is expected after 'throw' statement]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="TooWideLocalVariableScope">
     <priority>MAJOR</priority>
     <name><![CDATA[Local variable has too wide declaration scope]]></name>
     <description><![CDATA[Local variable has too wide declaration scope]]></description>
+    <tag>brain-overload</tag>
   </rule>
   <rule key="TryStatementsCanBeMerged">
     <priority>MAJOR</priority>
     <name><![CDATA[try-catch and try-finally statements can be merged]]></name>
     <description><![CDATA[try-catch and try-finally statements can be merged]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="TsDeclarationHides">
     <priority>MAJOR</priority>
@@ -2356,11 +2705,13 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Type parameter could be declared as covariant or contravariant]]></name>
     <description><![CDATA[Type parameter could be declared as covariant or contravariant]]></description>
+    <tag>generalize</tag>
   </rule>
   <rule key="UknownTaskAttribute">
     <priority>MAJOR</priority>
     <name><![CDATA[Unknown task attribute]]></name>
     <description><![CDATA[Unknown task attribute]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="UlTagContainsNonLiElements">
     <priority>MAJOR</priority>
@@ -2371,26 +2722,36 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Unassigned field]]></name>
     <description><![CDATA[Unassigned field]]></description>
+    <tag>bug</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="UnassignedField.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Unassigned field: Non-private accessibility]]></name>
     <description><![CDATA[Unassigned field: Non-private accessibility]]></description>
+    <tag>bug</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="UnassignedField.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Unassigned field: Private accessibility]]></name>
     <description><![CDATA[Unassigned field: Private accessibility]]></description>
+    <tag>bug</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="UnassignedReadonlyField">
     <priority>MAJOR</priority>
     <name><![CDATA[Unassigned readonly field]]></name>
     <description><![CDATA[Unassigned readonly field]]></description>
+    <tag>bug</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="UnassignedReadonlyField.Compiler">
     <priority>MAJOR</priority>
     <name><![CDATA[Unassigned readonly field]]></name>
     <description><![CDATA[Unassigned readonly field]]></description>
+    <tag>bug</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="UnclosedScript">
     <priority>MAJOR</priority>
@@ -2452,202 +2813,244 @@
     <name><![CDATA[BaseTypeRequired attribute supports only classes and interfaces]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/BaseTypeRequired+attribute+supports+only+classes+and+interfaces">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="UnusedAnonymousMethodSignature">
     <priority>MAJOR</priority>
     <name><![CDATA[Anonymous method signature is not necessary]]></name>
     <description><![CDATA[Anonymous method signature is not necessary]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UnusedAutoPropertyAccessor.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Auto-implemented property accessor is never used: Non-private accessibility]]></name>
     <description><![CDATA[Auto-implemented property accessor is never used: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedAutoPropertyAccessor.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Auto-implemented property accessor is never used: Private accessibility]]></name>
     <description><![CDATA[Auto-implemented property accessor is never used: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedField.Compiler">
     <priority>MAJOR</priority>
     <name><![CDATA[Field is never used]]></name>
     <description><![CDATA[Field is never used]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedImportClause">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused import clause]]></name>
     <description><![CDATA[Unused import clause]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedLabel">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused label]]></name>
     <description><![CDATA[Unused label]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedLocals">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused local variable of function]]></name>
     <description><![CDATA[Unused local variable of function]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMember.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Type or type member is never used: Non-private accessibility]]></name>
     <description><![CDATA[Type or type member is never used: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMember.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Type or type member is never used: Private accessibility]]></name>
     <description><![CDATA[Type or type member is never used: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMemberHiearchy.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Type member is only used in overrides: Non-private accessibility]]></name>
     <description><![CDATA[Type member is only used in overrides: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMemberHiearchy.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Type member is only used in overrides: Private accessibility]]></name>
     <description><![CDATA[Type member is only used in overrides: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMemberInSuper.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Type member is never accessed via base type: Non-private accessibility]]></name>
     <description><![CDATA[Type member is never accessed via base type: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMemberInSuper.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Type member is never accessed via base type: Private accessibility]]></name>
     <description><![CDATA[Type member is never accessed via base type: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMethodReturnValue.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Method return value is never used: Non-private accessibility]]></name>
     <description><![CDATA[Method return value is never used: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedMethodReturnValue.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Method return value is never used: Private accessibility]]></name>
     <description><![CDATA[Method return value is never used: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedParameter">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused parameter]]></name>
     <description><![CDATA[Unused parameter]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedParameter.Global">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused parameter: Non-private accessibility]]></name>
     <description><![CDATA[Unused parameter: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedParameter.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused parameter: Private accessibility]]></name>
     <description><![CDATA[Unused parameter: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedProperty">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused property or function]]></name>
     <description><![CDATA[Unused property or function]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedTypeParameter">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused type parameter]]></name>
     <description><![CDATA[Unused type parameter]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedVariable">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused local variable]]></name>
     <description><![CDATA[Unused local variable]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UnusedVariable.Compiler">
     <priority>MAJOR</priority>
     <name><![CDATA[Unused local variable]]></name>
     <description><![CDATA[Unused local variable]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="UsageOfDefinitelyUnassignedValue">
     <priority>MAJOR</priority>
     <name><![CDATA[Usage of unassigned local variable]]></name>
     <description><![CDATA[Usage of unassigned local variable]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="UsageOfPossiblyUnassignedValue">
     <priority>MAJOR</priority>
     <name><![CDATA[Usage of possibly unassigned local variable]]></name>
     <description><![CDATA[Usage of possibly unassigned local variable]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="UseArrayCreationExpression.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Use array creation expression: Use array creation expression]]></name>
     <description><![CDATA[Use array creation expression: Use array creation expression]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseArrayCreationExpression.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Use array creation expression: Use array creation expression]]></name>
     <description><![CDATA[Use array creation expression: Use array creation expression]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseIndexedProperty">
     <priority>MAJOR</priority>
     <name><![CDATA[Use indexed property]]></name>
     <description><![CDATA[Use indexed property]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseIsOperator.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Use 'is' operator: Use 'is' operator]]></name>
     <description><![CDATA[Use 'is' operator: Use 'is' operator]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseIsOperator.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Use 'is' operator: Use 'is' operator]]></name>
     <description><![CDATA[Use 'is' operator: Use 'is' operator]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseMethodAny.0">
     <priority>MAJOR</priority>
     <name><![CDATA[Use method Any(): Use method Any()]]></name>
     <description><![CDATA[Use method Any(): Use method Any()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseMethodAny.1">
     <priority>MAJOR</priority>
     <name><![CDATA[Use method Any(): Use method Any()]]></name>
     <description><![CDATA[Use method Any(): Use method Any()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseMethodAny.2">
     <priority>MAJOR</priority>
     <name><![CDATA[Use method Any(): Use method Any()]]></name>
     <description><![CDATA[Use method Any(): Use method Any()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseMethodAny.3">
     <priority>MAJOR</priority>
     <name><![CDATA[Use method Any(): Use method Any()]]></name>
     <description><![CDATA[Use method Any(): Use method Any()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseMethodAny.4">
     <priority>MAJOR</priority>
     <name><![CDATA[Use method Any(): Use method Any()]]></name>
     <description><![CDATA[Use method Any(): Use method Any()]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseMethodIsInstanceOfType">
     <priority>MAJOR</priority>
     <name><![CDATA[Use method IsInstanceOfType(..): Use method IsInstanceOfType(..)]]></name>
     <description><![CDATA[Use method IsInstanceOfType(..): Use method IsInstanceOfType(..)]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseObjectOrCollectionInitializer">
     <priority>MAJOR</priority>
     <name><![CDATA[Use object or collection initializer when possible]]></name>
     <description><![CDATA[Use object or collection initializer when possible]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="UseOfImplicitGlobalInFunctionScope">
     <priority>MAJOR</priority>
     <name><![CDATA[Use of implicitly declared global variable]]></name>
     <description><![CDATA[Use of implicitly declared global variable]]></description>
+    <tag>bug</tag>
+    <tag>pitfall</tag>
   </rule>
   <rule key="UsingOfReservedWord">
     <priority>MAJOR</priority>
     <name><![CDATA[Use of future reserved word]]></name>
     <description><![CDATA[Use of future reserved word]]></description>
+    <tag>pitfall</tag>
   </rule>
   <rule key="ValueParameterNotUsed">
     <priority>MAJOR</priority>
     <name><![CDATA['value' parameter is not used]]></name>
     <description><![CDATA[<h2>JetBrains Code Inspection Wiki</h2> <p><a
       href="http://confluence.jetbrains.net/display/ReSharper/%27value%27+parameter+is+not+used">See JetBrains documentation.</a></p>]]></description>
+    <tag>bug</tag>
+    <tag>unused</tag>
   </rule>
   <rule key="VBCheckForReferenceEqualityInstead.1">
     <priority>MAJOR</priority>
@@ -3115,11 +3518,13 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Virtual(overridable) member is never overridden: Non-private accessibility]]></name>
     <description><![CDATA[Virtual(overridable) member is never overridden: Non-private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="VirtualMemberNeverOverriden.Local">
     <priority>MAJOR</priority>
     <name><![CDATA[Virtual(overridable) member is never overridden: Private accessibility]]></name>
     <description><![CDATA[Virtual(overridable) member is never overridden: Private accessibility]]></description>
+    <tag>unused</tag>
   </rule>
   <rule key="WebConfig.ModuleQualificationResolve">
     <priority>MAJOR</priority>
@@ -3175,6 +3580,7 @@
     <priority>MAJOR</priority>
     <name><![CDATA[Suspicious expression statement]]></name>
     <description><![CDATA[Suspicious expression statement]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="WrongMetadataUse">
     <priority>MAJOR</priority>
@@ -3385,55 +3791,68 @@
     <priority>MAJOR</priority>
     <name><![CDATA[VB Compiler Errors]]></name>
     <description><![CDATA[VB Compiler Errors]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="XMLWarnings">
     <priority>MAJOR</priority>
     <name><![CDATA[XML Warnings]]></name>
     <description><![CDATA[XML Warnings]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="CodeSmell">
     <priority>MAJOR</priority>
     <name><![CDATA[CodeSmell]]></name>
     <description><![CDATA[Potential Code Quality Issues]]></description>
+    <tag>clumsy</tag>
   </rule>
   <rule key="BuildScriptErrors">
     <priority>MAJOR</priority>
     <name><![CDATA[Build Scripts Errors]]></name>
     <description><![CDATA[Build Scripts Errors]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="AspErrors">
     <priority>MAJOR</priority>
     <name><![CDATA[ASP Errors]]></name>
     <description><![CDATA[ASP Errors]]></description>
+    <tag>asp.net</tag>
+    <tag>bug</tag>
   </rule>
   <rule key="RazorErrors">
     <priority>MAJOR</priority>
     <name><![CDATA[Razor Errors]]></name>
     <description><![CDATA[Razor Errors]]></description>
+    <tag>asp.net</tag>
+    <tag>bug</tag>
   </rule>
   <rule key="TypeScriptErrors">
     <priority>MAJOR</priority>
     <name><![CDATA[TypeScript Compiler Errors]]></name>
     <description><![CDATA[TypeScript Compiler Errors]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="CSharpErrors">
     <priority>MAJOR</priority>
     <name><![CDATA[C# Compiler Errors]]></name>
     <description><![CDATA[C# Compiler Errors]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="JScriptErrors">
     <priority>MAJOR</priority>
     <name><![CDATA[JavaScript Errors]]></name>
     <description><![CDATA[JavaScript Errors]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="RazorWarnings">
     <priority>MAJOR</priority>
     <name><![CDATA[Razor Warnings]]></name>
     <description><![CDATA[Razor Warnings]]></description>
+    <tag>bug</tag>
   </rule>
   <rule key="XMLErrors">
     <priority>MAJOR</priority>
     <name><![CDATA[XML Errors]]></name>
     <description><![CDATA[XML Errors]]></description>
+    <tag>bug</tag>
   </rule>
 </rules>
